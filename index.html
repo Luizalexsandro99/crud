@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C.R.U.D</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div id="realize">
+            <h1>Realize seu cadastro</h1>
+        </div>
+
+        <div id="formulario">
+            <form>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Seu email">
+                </div>
+                <div class="form-group">
+                    <label for="senha">Senha</label>
+                    <input type="password" class="form-control" id="senha" placeholder="Sua senha">
+                </div>
+                <div class="form-group">
+                    <label for="cpf">Cpf</label>
+                    <input type="number" class="form-control" id="cpf" placeholder="Seu CPF">
+                </div>
+            </form>
+            <button class="btn btn-info" id="butao">Enviar</button>
+        </div>
+
+        <div class="alert bg-danger" id="error">Preencha todos os campos corretamente</div>
+        <div class="alert bg-success" id="sucesso">Dados enviados com sucesso</div>
+        <a href="./html/login.html"><button class="btn btn-success" id="botao-login">Clique para fazer login</button></a>
+    </div>
+    
+
+
+
+
+
+
+
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase.js"></script>
+<script src="../scripts/variaveis.js"></script>
+<script src="../scripts/recebendo.js"></script>
+<script src="../scripts/limpando.js"></script>
+<script src="../scripts/users.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+
+</body>
+</html>

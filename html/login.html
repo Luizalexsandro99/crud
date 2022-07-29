@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/stylePage2.css">
+</head>
+
+<body>
+
+    <div class="container " id="divPrincipal">
+        <div id="login">
+            <h2>Faça login</h2>
+        </div>
+
+        <form>
+            <div class="form-group">
+                <label for="emailLogin">Login</label>
+                <input class="form-control" type="email"  id="emailLogin">
+            </div>
+            <div class="form-group">
+                <label for="senhaLogin">Senha</label>
+                <input class="form-control" type="password"  id="senhaLogin">
+            </div>
+        </form>
+        <button class="btn btn-info" id="butaoLogin">Login</button>
+        <p id="errorDados" class="alert bg-danger mt-3" style="text-align:center; color:white; display:none;">Você inseriu dados inválidos</p>
+    </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase.js"></script>
+    <script src="../scripts/variaveis.js"></script>
+    <script src="../scripts/logins.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
