@@ -16,3 +16,5 @@ const emailLogin = document.querySelector('#emailLogin')
 const senhaLogin = document.querySelector('#senhaLogin')
 const botaoEntrar = document.querySelector('#butaoLogin')
 const errorDados = document.querySelector('#errorDados')
+
+

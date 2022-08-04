@@ -1,5 +1,6 @@
 function limpar(){
     butao.addEventListener('click', ()=>{
+        if(email.value.includes('@') && cpf.value.length == 11)
         setTimeout(()=>{
             formulario.classList.add('sumindo')
             senha.value = ''
@@ -13,5 +14,6 @@ function limpar(){
         })
     }, 3000)
 }
+
 limpar()
 

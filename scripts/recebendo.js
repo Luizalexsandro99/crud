@@ -6,6 +6,7 @@ function valorDigitado() {
         emailFinal = email.value
         cpfFinal = cpf.value
         sucesso.style.display = 'block'
+        error.style.display = 'none'
         }else{
             error.style.display = 'block'
         }
